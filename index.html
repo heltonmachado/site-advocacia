@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advocacia Premium | Escritório de Advocacia - Defesa dos Seus Direitos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        gold: { 100: '#FFF8DC', 200: '#F9E498', 300: '#E8C86A', 400: '#D4AF37', 500: '#B8962E', 600: '#8C6C1F' },
+        navy: { 800: '#0A1931', 700: '#112240', 600: '#1B2F5A', 500: '#23395D' },
+      },
+      fontFamily: { cinzel: ['Cinzel','serif'], inter: ['Inter','sans-serif'], playfair: ['Playfair Display','serif'] }
+    }
+  }
+}
+</script>
+</head>
+<body class="antialiased">
+
+<!-- TOP BAR -->
+<div class="w-full bg-black border-b border-gold-400/20 text-center py-2 px-4 flex flex-wrap justify-center gap-4 md:gap-8 text-[11px] md:text-xs tracking-widest text-gold-200">
+  <span class="flex items-center gap-2">⚖️ OAB CERTIFICADO • ATENDIMENTO 24H</span>
+  <span class="hidden md:inline">|</span>
+  <span>📍 Belém-PA • Atendimento Nacional</span>
+  <span class="hidden md:inline">|</span>
+  <span>📞 PIX / WhatsApp: 91 98599-5059</span>
+</div>
+
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-[#05070A]/95 backdrop-blur-xl border-b border-gold-400/15">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-full gold-gradient flex items-center justify-center font-cinzel font-black text-black text-lg">§</div>
+      <div>
+        <p class="font-cinzel font-bold text-sm tracking-[0.2em] gold-text">ADVOCACIA PREMIUM</p>
+        <p class="text-[9px] tracking-[0.3em] text-gold-300/60 -mt-1">EXCELÊNCIA JURÍDICA</p>
+      </div>
+    </div>
+    <div class="hidden md:flex items-center gap-8 text-xs tracking-widest">
+      <a href="#servicos" class="hover:text-gold-400 transition">SERVIÇOS</a>
+      <a href="#sobre" class="hover:text-gold-400 transition">SOBRE</a>
+      <a href="#depoimentos" class="hover:text-gold-400 transition">DEPOIMENTOS</a>
+      <a href="#contato" class="hover:text-gold-400 transition">CONTATO</a>
+    </div>
+    <a href="https://wa.me/5591985995059?text=Olá! Quero uma consulta gratuita com um advogado." class="hidden md:inline-flex gold-gradient text-black font-bold text-xs px-6 py-3 rounded-sm tracking-widest hover:brightness-110 transition">CONSULTA GRATUITA</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="relative min-h-[88vh] flex items-center overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop" alt="Advogado premium" class="absolute inset-0 w-full h-full object-cover object-top">
+  <div class="absolute inset-0 hero-overlay"></div>
+  <div class="absolute inset-0 opacity-30" style="background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(212,175,55,0.03) 2px, rgba(212,175,55,0.03) 3px)"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-[1.1fr_0.9fr] gap-10 w-full items-center">
+    <div>
+      <div class="inline-flex items-center gap-2 border border-gold-400/30 bg-gold-400/10 px-4 py-1.5 rounded-full text-[10px] tracking-[0.25em] text-gold-200 mb-6">
+        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> ATENDIMENTO IMEDIATO 24H • SIGILO ABSOLUTO
+      </div>
+      <h1 class="font-cinzel font-black text-4xl md:text-6xl leading-[0.95] tracking-tight">
+        <span class="block text-white">DEFENDEMOS</span>
+        <span class="block gold-text">SEUS DIREITOS</span>
+        <span class="block text-white text-3xl md:text-4xl mt-2 font-light">COM EXCELÊNCIA & RESULTADO</span>
+      </h1>
+      <p class="mt-6 text-gray-300 text-sm md:text-base leading-relaxed max-w-xl border-l-2 border-gold-400/50 pl-5">
+        Escritório premium especializado em Direito Trabalhista, Cível, Criminal e de Família. Mais de <strong class="text-gold-300">1.500 causas vencidas</strong> com atendimento humanizado, estratégico e 100% confidencial.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-3">
+        <div class="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-sm text-[11px]">
+          <span class="text-gold-400 text-lg">⚖️</span> OAB ATIVA • CREDENCIADO
+        </div>
+        <div class="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-sm text-[11px]">
+          <span class="text-gold-400">🕐</span> ATENDIMENTO 24H • URGÊNCIAS
+        </div>
+        <div class="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-sm text-[11px]">
+          🏆 +15 ANOS DE EXPERIÊNCIA
+        </div>
+      </div>
+
+      <div class="mt-10 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+        <a href="https://wa.me/5591985995059?text=Olá! Vi o site de advocacia premium e quero uma CONSULTA GRATUITA." target="_blank" class="shine gold-gradient text-black font-black text-sm md:text-base px-8 py-4 rounded-sm tracking-[0.15em] pulse-gold inline-flex items-center gap-3">
+          💬 CONSULTA GRATUITA NO WHATSAPP
+        </a>
+        <div class="text-[11px] text-gray-400 leading-tight">
+          Resposta em até 5 minutos<br><span class="text-gold-300">Sigilo garantido • Sem compromisso</span>
+        </div>
+      </div>
+
+      <!-- BOX PREÇO ESTILO RESTAURANTE -->
+      <div class="mt-12 card-luxo p-6 max-w-md relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gold-400/10 blur-2xl"></div>
+        <p class="text-[11px] tracking-[0.25em] text-gold-300">SITE DE ADVOCACIA PREMIUM • PRONTO EM 24H</p>
+        <div class="mt-4 flex items-center gap-4">
+          <div class="bg-gradient-to-br from-green-600 to-green-800 border border-green-400 glow-green rounded-xl px-6 py-3">
+            <p class="text-white font-black text-4xl leading-none">R$ <span class="text-5xl">997</span></p>
+          </div>
+          <div class="text-xs text-gray-300 leading-tight">
+            preço único<br>pagamento via <strong class="text-white">PIX</strong><br><span class="text-gold-300">91 98599-5059</span>
+          </div>
+        </div>
+        <ul class="mt-5 space-y-2 text-[13px] text-gray-200">
+          <li class="flex gap-2"><span class="text-gold-400">✓</span> Design Luxo Preto & Dourado & Azul Marinho</li>
+          <li class="flex gap-2"><span class="text-gold-400">✓</span> Botão WhatsApp Flutuante + Chat 24h</li>
+          <li class="flex gap-2"><span class="text-gold-400">✓</span> Áreas: Trabalhista, Cível, Criminal, Família</li>
+          <li class="flex gap-2"><span class="text-gold-400">✓</span> Selos OAB + Mapa + Depoimentos Reais</li>
+        </ul>
+        <a href="https://wa.me/5591985995059" target="_blank" id="cta-top" class="mt-6 w-full block text-center gold-gradient text-black font-black py-3.5 tracking-widest text-sm rounded-sm">QUERO MEU SITE AGORA</a>
+      </div>
+    </div>
+
+    <!-- LADO FOTO PREMIUM ELEMENTS -->
+    <div class="hidden md:block relative">
+      <div class="card-luxo p-8 rounded-2xl relative ml-8">
+        <p class="font-playfair italic text-gold-200 text-xl leading-relaxed">"A justiça não é apenas um conceito, é a nossa missão diária em defesa da sua dignidade."</p>
+        <div class="mt-6 flex items-center gap-3">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" class="w-12 h-12 rounded-full object-cover border border-gold-400/50">
+          <div>
+            <p class="text-sm font-bold">Dr. Ricardo M. advocacia</p>
+            <p class="text-[11px] text-gold-300 tracking-widest">OAB/PA 12.345 • SÓCIO FUNDADOR</p>
+          </div>
+        </div>
+        <div class="mt-6 grid grid-cols-3 text-center divide-x divide-gold-400/20">
+          <div><p class="text-2xl font-cinzel font-bold gold-text">98%</p><p class="text-[10px] text-gray-400">ÊXITO</p></div>
+          <div><p class="text-2xl font-cinzel font-bold gold-text">1500+</p><p class="text-[10px] text-gray-400">CASOS</p></div>
+          <div><p class="text-2xl font-cinzel font-bold gold-text">15+</p><p class="text-[10px] text-gray-400">ANOS</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="py-20 bg-[#070A12] border-t border-gold-400/10">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="text-gold-400 tracking-[0.35em] text-[11px]">NOSSAS ESPECIALIDADES</p>
+      <h2 class="mt-3 font-cinzel text-3xl md:text-5xl font-bold leading-tight">SOLUÇÕES JURÍDICAS <span class="gold-text">COMPLETAS</span></h2>
+      <p class="mt-4 text-gray-400 text-sm">Atendimento estratégico, humanizado e focado em resultado. Sua causa tratada como única.</p>
+    </div>
+
+    <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Trabalhista -->
+      <div class="card-luxo rounded-xl p-7 group">
+        <div class="w-14 h-14 rounded-lg bg-gradient-to-br from-navy-600 to-navy-800 border border-gold-400/20 flex items-center justify-center text-2xl">👷</div>
+        <h3 class="mt-5 font-cinzel font-bold text-lg">TRABALHISTA</h3>
+        <p class="mt-2 text-xs tracking-widest text-gold-300/70">CLT • RESCISÃO • HORAS EXTRAS</p>
+        <p class="mt-3 text-[13px] text-gray-300 leading-relaxed">Demissão sem justa causa, verbas rescisórias, assédio moral, acidente de trabalho, FGTS e seguro-desemprego. Lutamos pelos seus direitos.</p>
+        <ul class="mt-4 text-[12px] text-gray-400 space-y-1">
+          <li>• Cálculo de verbas em 24h</li>
+          <li>• Ação trabalhista completa</li>
+          <li>• Acordo extrajudicial</li>
+        </ul>
+        <a href="https://wa.me/5591985995059?text=Quero ajuda Trabalhista" class="mt-5 inline-block text-[11px] tracking-widest border border-gold-400/30 px-4 py-2 hover:bg-gold-400 hover:text-black transition">FALAR NO WHATSAPP →</a>
+      </div>
+      <!-- Cível -->
+      <div class="card-luxo rounded-xl p-7">
+        <div class="w-14 h-14 rounded-lg bg-gradient-to-br from-navy-600 to-navy-800 border border-gold-400/20 flex items-center justify-center text-2xl">🏛️</div>
+        <h3 class="mt-5 font-cinzel font-bold text-lg">CÍVEL</h3>
+        <p class="mt-2 text-xs tracking-widest text-gold-300/70">CONTRATOS • INDENIZAÇÃO • CONSUMIDOR</p>
+        <p class="mt-3 text-[13px] text-gray-300 leading-relaxed">Cobranças indevidas, negativação, acidentes, contratos, usucapião e responsabilidade civil. Protegemos seu patrimônio.</p>
+        <ul class="mt-4 text-[12px] text-gray-400 space-y-1">
+          <li>• Danos morais e materiais</li>
+          <li>• Revisão de contratos</li>
+          <li>• Defesa do consumidor</li>
+        </ul>
+        <a href="https://wa.me/5591985995059?text=Quero ajuda Cível" class="mt-5 inline-block text-[11px] tracking-widest border border-gold-400/30 px-4 py-2 hover:bg-gold-400 hover:text-black transition">FALAR NO WHATSAPP →</a>
+      </div>
+      <!-- Criminal -->
+      <div class="card-luxo rounded-xl p-7">
+        <div class="w-14 h-14 rounded-lg bg-gradient-to-br from-navy-600 to-navy-800 border border-gold-400/20 flex items-center justify-center text-2xl">⚖️</div>
+        <h3 class="mt-5 font-cinzel font-bold text-lg">CRIMINAL</h3>
+        <p class="mt-2 text-xs tracking-widest text-gold-300/70">DEFESA • HABEAS CORPUS • TRIBUNAL DO JÚRI</p>
+        <p class="mt-3 text-[13px] text-gray-300 leading-relaxed">Defesa criminal estratégica 24h, flagrante, audiência de custódia, liberdade provisória e recursos. Plantão de urgência.</p>
+        <ul class="mt-4 text-[12px] text-gray-400 space-y-1">
+          <li>• Plantão 24h para flagrantes</li>
+          <li>• Habeas Corpus urgente</li>
+          <li>• Acompanhamento em delegacia</li>
+        </ul>
+        <a href="https://wa.me/5591985995059?text=Urgência Criminal" class="mt-5 inline-block text-[11px] tracking-widest bg-red-900/30 border border-red-400/30 px-4 py-2 hover:bg-red-800 transition">URGÊNCIA 24H →</a>
+      </div>
+      <!-- Família -->
+      <div class="card-luxo rounded-xl p-7">
+        <div class="w-14 h-14 rounded-lg bg-gradient-to-br from-navy-600 to-navy-800 border border-gold-400/20 flex items-center justify-center text-2xl">👨‍👩‍👧</div>
+        <h3 class="mt-5 font-cinzel font-bold text-lg">FAMÍLIA</h3>
+        <p class="mt-2 text-xs tracking-widest text-gold-300/70">DIVÓRCIO • PENSÃO • GUARDA • INVENTÁRIO</p>
+        <p class="mt-3 text-[13px] text-gray-300 leading-relaxed">Divórcio consensual e litigioso, pensão alimentícia, guarda, regulamentação de visitas e inventário com acolhimento e sigilo.</p>
+        <ul class="mt-4 text-[12px] text-gray-400 space-y-1">
+          <li>• Divórcio em até 7 dias</li>
+          <li>• Pensão e guarda</li>
+          <li>• Planejamento sucessório</li>
+        </ul>
+        <a href="https://wa.me/5591985995059?text=Quero ajuda Família" class="mt-5 inline-block text-[11px] tracking-widest border border-gold-400/30 px-4 py-2 hover:bg-gold-400 hover:text-black transition">FALAR NO WHATSAPP →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="py-20 bg-black relative overflow-hidden">
+  <div class="absolute inset-0 opacity-20" style="background: radial-gradient(600px at 80% 20%, rgba(212,175,55,0.15), transparent)"></div>
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+    <div class="relative">
+      <div class="absolute -inset-3 gold-border rounded-2xl rotate-2"></div>
+      <img src="https://images.unsplash.com/photo-1556157388-97ec21184a59?q=80&w=1000&auto=format&fit=crop" alt="Escritório premium advocacia" class="relative rounded-2xl w-full h-[520px] object-cover">
+      <div class="absolute -bottom-6 -right-6 card-luxo rounded-xl px-6 py-4 flex gap-4 items-center">
+        <div class="w-12 h-12 rounded-full gold-gradient flex items-center justify-center text-black font-bold">OAB</div>
+        <div><p class="text-sm font-bold">Certificado OAB</p><p class="text-[11px] text-gold-300">Ética & Transparência Total</p></div>
+      </div>
+    </div>
+    <div>
+      <p class="text-gold-400 tracking-[0.3em] text-[11px]">SOBRE O ESCRITÓRIO</p>
+      <h2 class="mt-3 font-cinzel text-3xl md:text-4xl font-bold leading-tight">15 ANOS TRANSFORMANDO <span class="gold-text">PROBLEMAS EM SOLUÇÕES</span></h2>
+      <p class="mt-6 text-gray-300 text-sm leading-relaxed">
+        Somos um escritório boutique que une <span class="text-white font-semibold">tradição jurídica</span> com <span class="text-gold-300">tecnologia e atendimento premium</span>. Cada cliente recebe estratégia personalizada, acompanhamento semanal da causa e acesso direto ao advogado responsável no WhatsApp.
+      </p>
+      <div class="mt-6 grid grid-cols-2 gap-4">
+        <div class="card-luxo rounded-lg p-4">
+          <p class="font-cinzel font-bold text-gold-400 text-xl">1.500+</p>
+          <p class="text-[12px] text-gray-300">Causas ganhas com 98% de êxito</p>
+        </div>
+        <div class="card-luxo rounded-lg p-4">
+          <p class="font-cinzel font-bold text-gold-400 text-xl">24h</p>
+          <p class="text-[12px] text-gray-300">Plantão jurídico para urgências</p>
+        </div>
+        <div class="card-luxo rounded-lg p-4">
+          <p class="font-cinzel font-bold text-gold-400 text-xl">4.9★</p>
+          <p class="text-[12px] text-gray-300">Avaliação média Google</p>
+        </div>
+        <div class="card-luxo rounded-lg p-4">
+          <p class="font-cinzel font-bold text-gold-400 text-xl">100%</p>
+          <p class="text-[12px] text-gray-300">Sigilo e confidencialidade</p>
+        </div>
+      </div>
+      <div class="mt-8 flex flex-wrap gap-3 text-[11px]">
+        <span class="px-3 py-1.5 rounded-full border border-gold-400/30 bg-gold-400/5">✓ Atendimento Humanizado</span>
+        <span class="px-3 py-1.5 rounded-full border border-gold-400/30 bg-gold-400/5">✓ Honorários Facilitados</span>
+        <span class="px-3 py-1.5 rounded-full border border-gold-400/30 bg-gold-400/5">✓ Sem Juridiquês</span>
+      </div>
+      <a href="https://wa.me/5591985995059?text=Quero conhecer o escritório" class="mt-8 inline-flex gold-gradient text-black font-bold text-xs px-8 py-4 tracking-widest">AGENDAR CONSULTA GRATUITA</a>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos" class="py-20 bg-[#0A0E1A]">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center">
+      <p class="text-gold-400 tracking-[0.3em] text-[11px]">DEPOIMENTOS REAIS</p>
+      <h2 class="mt-3 font-cinzel text-3xl md:text-4xl font-bold">CONFIANÇA QUE GERA <span class="gold-text">RESULTADOS</span></h2>
+    </div>
+    <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="card-luxo rounded-xl p-6">
+        <div class="flex gap-1 text-gold-400 text-sm">★★★★★</div>
+        <p class="mt-4 text-[14px] text-gray-200 leading-relaxed">"Ganhei minha causa trabalhista em 3 meses! Equipe extremamente atenciosa, me mantiveram informada pelo WhatsApp toda semana. Recomendo muito."</p>
+        <div class="mt-5 flex gap-3 items-center">
+          <img src="https://i.pravatar.cc/100?img=5" class="w-10 h-10 rounded-full">
+          <div><p class="text-sm font-bold">Maria S. • Belém-PA</p><p class="text-[11px] text-gold-300">Ação Trabalhista • R$ 18.500 recebidos</p></div>
+        </div>
+      </div>
+      <div class="card-luxo rounded-xl p-6 border-gold-400/50">
+        <div class="flex gap-1 text-gold-400 text-sm">★★★★★</div>
+        <p class="mt-4 text-[14px] text-gray-200 leading-relaxed">"Meu divórcio consensual saiu em 6 dias. Atendimento premium, sem dor de cabeça, sem exposição. Fizeram tudo online. Gratidão!"</p>
+        <div class="mt-5 flex gap-3 items-center">
+          <img src="https://i.pravatar.cc/100?img=32" class="w-10 h-10 rounded-full">
+          <div><p class="text-sm font-bold">João Carlos M.</p><p class="text-[11px] text-gold-300">Direito de Família • Divórcio Resolvido</p></div>
+        </div>
+      </div>
+      <div class="card-luxo rounded-xl p-6">
+        <div class="flex gap-1 text-gold-400 text-sm">★★★★★</div>
+        <p class="mt-4 text-[14px] text-gray-200 leading-relaxed">"Fui preso injustamente e o Dr. me soltou em 24h com Habeas Corpus. Profissional que atende de madrugada mesmo. Salvou minha vida."</p>
+        <div class="mt-5 flex gap-3 items-center">
+          <img src="https://i.pravatar.cc/100?img=15" class="w-10 h-10 rounded-full">
+          <div><p class="text-sm font-bold">Carlos R. • Ananindeua</p><p class="text-[11px] text-gold-300">Criminal • Liberdade em 24h</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO + MAPA -->
+<section id="contato" class="py-20 bg-black border-t border-gold-400/10">
+  <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10">
+    <div>
+      <p class="text-gold-400 tracking-[0.3em] text-[11px]">FALE CONOSCO</p>
+      <h2 class="mt-3 font-cinzel text-3xl md:text-4xl font-bold">AGENDE SUA <span class="gold-text">CONSULTA GRATUITA</span></h2>
+      <p class="mt-4 text-sm text-gray-400">Atendimento imediato no WhatsApp. Sigilo absoluto garantido pela OAB. Primeira análise sem custo.</p>
+
+      <form onsubmit="event.preventDefault(); window.open('https://wa.me/5591985995059?text=Olá! Meu nome é '+encodeURIComponent(document.getElementById('nome').value)+'. Preciso de ajuda em: '+encodeURIComponent(document.getElementById('area').value),'_blank')" class="mt-8 card-luxo rounded-xl p-6 space-y-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <input id="nome" required placeholder="Seu nome completo" class="w-full bg-white/5 border border-gold-400/20 rounded-sm px-4 py-3 text-sm placeholder-gray-500 focus:border-gold-400 focus:outline-none">
+          <input required placeholder="Seu WhatsApp" class="w-full bg-white/5 border border-gold-400/20 rounded-sm px-4 py-3 text-sm placeholder-gray-500 focus:border-gold-400 focus:outline-none">
+        </div>
+        <select id="area" class="w-full bg-[#111727] border border-gold-400/20 rounded-sm px-4 py-3 text-sm text-gray-300 focus:border-gold-400 focus:outline-none">
+          <option>Trabalhista</option><option>Cível</option><option>Criminal - URGÊNCIA</option><option>Família</option><option>Outro</option>
+        </select>
+        <textarea rows="4" placeholder="Conte brevemente seu caso (sigiloso)" class="w-full bg-white/5 border border-gold-400/20 rounded-sm px-4 py-3 text-sm placeholder-gray-500 focus:border-gold-400 focus:outline-none"></textarea>
+        <button type="submit" class="w-full gold-gradient text-black font-black tracking-widest text-sm py-4 rounded-sm">ENVIAR PARA WHATSAPP AGORA</button>
+        <p class="text-[10px] text-center text-gray-500 tracking-widest">✓ Resposta em até 5 min • ✓ Atendimento 24h • ✓ 100% sigiloso</p>
+      </form>
+
+      <div class="mt-8 flex flex-wrap gap-4 text-xs">
+        <div class="flex items-center gap-2"><span class="w-8 h-8 rounded-full bg-white/5 border border-gold-400/20 flex items-center justify-center">📞</span> 91 98599-5059</div>
+        <div class="flex items-center gap-2"><span class="w-8 h-8 rounded-full bg-white/5 border border-gold-400/20 flex items-center justify-center">💬</span> WhatsApp 24h</div>
+        <div class="flex items-center gap-2"><span class="w-8 h-8 rounded-full bg-white/5 border border-gold-400/20 flex items-center justify-center">📍</span> Belém-PA • Brasil</div>
+      </div>
+    </div>
+
+    <div class="space-y-6">
+      <div class="rounded-xl overflow-hidden border border-gold-400/20 h-[340px]">
+        <iframe class="w-full h-full" style="filter: grayscale(1) invert(0.9) contrast(1.2);" src="https://maps.google.com/maps?q=Belém-PA&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+      </div>
+      <div class="card-luxo rounded-xl p-6">
+        <p class="font-cinzel font-bold text-gold-300">ESCRITÓRIO BELÉM - MATRIZ</p>
+        <p class="mt-2 text-sm text-gray-300">Av. Presidente Vargas, 800 - Campina, Belém - PA, 66017-000</p>
+        <p class="mt-3 text-xs text-gray-400">Atendimento presencial com hora marcada • Online para todo o Brasil via WhatsApp e videoconferência.</p>
+        <div class="mt-4 flex gap-2">
+          <a href="https://wa.me/5591985995059" class="text-xs px-4 py-2 bg-white/5 border border-gold-400/20 rounded-sm">VER ROTA NO MAPS</a>
+          <a href="https://wa.me/5591985995059" class="text-xs px-4 py-2 gold-gradient text-black font-bold rounded-sm">CHAMAR NO WHATSAPP</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER VENDA DO TEMPLATE - ESTILO RESTAURANTE -->
+<footer class="bg-[#05070A] border-t border-gold-400/20">
+  <div class="max-w-5xl mx-auto px-6 py-14">
+    <div class="text-center border gold-border bg-black rounded-2xl p-8 md:p-10">
+      <div class="w-16 h-16 mx-auto rounded-full gold-gradient flex items-center justify-center text-black font-cinzel font-black text-2xl">§</div>
+      <h3 class="mt-4 font-cinzel font-black text-2xl md:text-3xl tracking-wide">SITE DE ADVOCACIA</h3>
+      <p class="text-gold-300 tracking-[0.3em] text-xs mt-1">PREMIUM PRONTO EM 24H</p>
+
+      <div class="mt-6 inline-flex flex-col bg-[#06120A] border border-green-400 glow-green rounded-xl px-8 py-5">
+        <span class="text-green-400 font-black text-5xl md:text-6xl leading-none">R$ 997</span>
+        <span class="text-[12px] text-gray-300 mt-2 tracking-widest">preço único • pagamento via PIX</span>
+      </div>
+
+      <div class="mt-8 text-left max-w-md mx-auto space-y-3 text-sm">
+        <p class="text-gold-400 font-bold tracking-widest text-center">O QUE ESTÁ INCLUSO:</p>
+        <div class="space-y-2 text-gray-200">
+          <p><span class="inline-flex w-5 h-5 rounded-full bg-gold-400 text-black items-center justify-center text-[11px] font-bold mr-2">✓</span>Design Luxo Preto / Dourado / Azul Marinho</p>
+          <p><span class="inline-flex w-5 h-5 rounded-full bg-gold-400 text-black items-center justify-center text-[11px] font-bold mr-2">✓</span>Seções: Hero Premium + Serviços + Sobre + Depoimentos</p>
+          <p><span class="inline-flex w-5 h-5 rounded-full bg-gold-400 text-black items-center justify-center text-[11px] font-bold mr-2">✓</span>Botão WhatsApp Flutuante + Consulta Gratuita</p>
+          <p><span class="inline-flex w-5 h-5 rounded-full bg-gold-400 text-black items-center justify-center text-[11px] font-bold mr-2">✓</span>Mapa Google + Selos OAB + Atendimento 24h</p>
+          <p><span class="inline-flex w-5 h-5 rounded-full bg-gold-400 text-black items-center justify-center text-[11px] font-bold mr-2">✓</span>Tailwind CDN • Responsivo • Código Único</p>
+        </div>
+      </div>
+
+      <div class="mt-10 border-t border-gold-400/15 pt-6">
+        <p class="text-gold-200 font-bold tracking-widest">PIX: 91 98599-5059</p>
+        <p class="text-gold-200 font-bold tracking-widest">WhatsApp: 91 98599-5059</p>
+        <a class="mt-3 inline-block text-yellow-400 border border-yellow-400/50 rounded-lg px-4 py-1 text-sm font-bold tracking-wider" href="https://site-restaurante-lilac.vercel.app" target="_blank">site-restaurante-lilac.vercel.app</a>
+      </div>
+
+      <a href="https://wa.me/5591985995059" target="_blank" class="mt-8 block w-full gold-gradient text-black font-black text-lg tracking-widest py-4 rounded-xl hover:brightness-110 transition">QUERO MEU SITE AGORA</a>
+      <p class="mt-3 text-[11px] text-gray-500 tracking-widest">DEMO AO VIVO • Entrega 24h • Belém-PA</p>
+    </div>
+    <p class="text-center text-[11px] text-gray-600 mt-6 tracking-widest">Helton Machado • Sites Profissionais • Advocacia Premium</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLUTUANTE -->
+<div class="fixed bottom-5 right-5 z-[60] flex flex-col items-end gap-3">
+  <div id="pixPopup" class="hidden card-luxo rounded-xl px-4 py-3 text-xs max-w-[260px]">
+    <p class="font-bold text-gold-300">Pague via PIX</p>
+    <p class="mt-1 text-gray-300">Chave: <strong class="text-white">91 98599-5059</strong></p>
+    <p class="text-[10px] text-gray-500 mt-1">R$ 997 • Envio do site em até 24h após pagamento</p>
+  </div>
+  <div class="flex gap-2">
+    <button onclick="document.getElementById('pixPopup').classList.toggle('hidden')" class="bg-[#0A1931] border border-gold-400/30 text-gold-200 text-[11px] px-4 py-2.5 rounded-full tracking-widest hover:bg-gold-400 hover:text-black transition">PIX</button>
+    <a href="https://wa.me/5591985995059?text=Olá! Quero meu site de advocacia premium por R$997." target="_blank" class="w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-[0_8px_24px_rgba(37,211,102,0.5)] hover:scale-105 transition">
+      <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white"><path d="M19.05 4.91A9.91 9.91 0 0 0 12.04 2C6.58 2 2.15 6.45 2.15 11.93c0 1.75.46 3.45 1.32 4.95L2 22l5.26-1.38a9.87 9.87 0 0 0 4.71 1.2h0c5.47 0 9.9-4.45 9.9-9.93a9.88 9.88 0 0 0-2.82-6.98Zm-7.01 15.2h0a8.3 8.3 0 0 1-4.23-1.16l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.28-4.31c0-4.6 3.74-8.34 8.35-8.34a8.3 8.3 0 0 1 5.89 2.44 8.26 8.26 0 0 1 2.44 5.88c0 4.6-3.74 8.34-8.34 8.34Zm4.58-6.25c-.25-.13-1.48-.73-1.71-.82-.23-.08-.4-.13-.56.13-.16.25-.65.82-.8.99-.15.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.08 0 1.23.9 2.42 1.02 2.59.12.17 1.77 2.7 4.29 3.79.6.26 1.07.42 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.48-.6 1.69-1.19.21-.58.21-1.08.15-1.19-.06-.11-.23-.17-.48-.3Z"/></svg>
+    </a>
+  </div>
+</div>
+
+<script src="javascript/main.js"></script>
+</body>
+</html>
